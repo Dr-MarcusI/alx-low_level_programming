@@ -1,11 +1,15 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *Description:'Write a C program that prints exact
+ *Return:Always 0 (Success)
+ */
 
 int main(void)
 {
 
-/* Write a C program that prints exactly */
 
-puts("\"Programming is like building a multilingual puzzle\n");
+puts("\"Programming is like building a multilingual puzzle");
 
 
 return (0);
