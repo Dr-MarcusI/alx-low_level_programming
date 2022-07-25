@@ -1,1 +1,0 @@
-Static Library README.md
