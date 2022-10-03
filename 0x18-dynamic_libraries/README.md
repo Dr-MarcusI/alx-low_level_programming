@@ -1,21 +1,17 @@
-## 0x18. C - Dynamic librarie
-## About
-An introductory project on:
-- Dynamic libraries
-- `$LD_LIBRARY_PATH` environment variable
-- Static vs shared libraries
-## Requirements
-- Ubuntu 20.04 LTS using gcc
-- gcc LTS
-## File Descriptions
-### Mandatory
-**[main.h](main.h)** - header file containing the prototypes of functions from previous projects.
+# 0x18. C - Dynamic libraries
 
-**[libdynamic.so](libdynamic.so)** - dynamic library containing all functions found in [main.h](main.h).
+In this project, i learnt about what dynamic library is, how it works, how to create one and how it works. It also helped me understand the differences between static and shared libraries.
 
-**[1-create_dynamic_lib.sh](1-create_dynamic_lib.sh)** - script that creates a dynamic library called `liball.so` from all `.c` files that are in the current directory.
+## Function Prototypes :floppy_disk:
+The following files are scripts written for the projects written in C:
 
-### Advanced
-**[100-operations.so](100-operations.so)** - dynamic library that contains C functions that can be called from Python.
 
-**[101-make_me_win.sh](101-make_me_win.sh)** - Our mole also gave us a piece of documentation.
+## Table of contents
+Files | Description
+----- | -----------
+[libdynamic.so](./libdynamic.so) | C dynamic library containing the function definitions
+[main.h](./main.h) | Header files containing the function prototypes
+[1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh) | Bash script that creates a dynamic library called liball.so from all the .c files that are in the current directory
+[100-operations.so](./100-operations.so) | C dynamic library that contains C functions that can be called from Python
+[random.so](./random.so) | C dynamic library to inject in a giga million program
+[101-make_me_win.sh](./101-make_me_win.sh) | Bash script to inject the libmask.so library, using LD_PRELOAD, in the giga million program
