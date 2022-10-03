@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp/ https://raw.github.com/david-develop/holbertonschool-low_level_programming/master/0x18-dynamic_libraries/libran.so
-export LD_PRELOAD=/tmp/libran.so
+wget -P .. https://raw.githubusercontent.com/VicvekSr9485/alx-low_level_programming/main/0x18-dynamic_libraries/randnum.so
+export LD_PRELOAD="$PWD/../randnum.so"
